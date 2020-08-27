@@ -1,6 +1,7 @@
 <manifest>
     <remote name="github" fetch="https://github.com"/>
     <default revision="refs/heads/master" remote="github" sync-j="4"/>
-    <project name="YangLiu1024/GitSubTreeTestLeafRepo" remote="github" path="leaf"/>
-    <project name="YangLiu1024/GitSubTreeTestSplitRepo" remote="github" path="split"/>
+    <project name="YangLiu1024/GitSubTreeTestLeafRepo" path="leaf"/>
+    <project name="YangLiu1024/GitSubTreeTestSplitRepo" path="split"/>
+    <project name="YangLiu1024/GitSubTreeTestHostRepo" path="host"/>
 </manifest>
